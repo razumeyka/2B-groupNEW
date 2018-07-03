@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="107px" height="164px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1070 1640"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:white}
+    .fil0 {fill:white;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2143122768784">
+   <path class="fil0" d="M840 508c52,-55 81,-128 81,-207 0,-165 -130,-300 -291,-300l-630 0 1 1099 1065 0 0 -299c0,-143 -96,-262 -226,-293zm129 492l-870 0c11,-121 70,-232 164,-309l182 -136c71,-46 119,-120 133,-204 5,-34 5,-66 0,-100l-336 0 0 100 237 0c-13,49 -43,92 -86,120l-188 140c-42,34 -78,73 -108,117l0 -627c178,0 355,0 533,0 107,0 194,90 194,200 0,70 -34,133 -92,170l-40 30 0 0 -148 110c-79,64 -137,146 -171,240l451 0 0 -100 -282 0c18,-22 38,-42 61,-60l120 -90 53 0c107,0 193,89 193,200l0 199z"/>
+   <rect class="fil1" y="1549" width="878.734" height="85.5603"/>
+   <rect class="fil1" x="979" y="1549" width="90.0013" height="90.0013"/>
+   <path class="fil0" d="M5 1230l0 28c15,-11 32,-16 47,-16 14,0 24,5 24,15 0,12 -13,18 -28,26 -22,11 -48,24 -48,56l0 13 109 0 0 -25 -73 0c0,-9 15,-16 32,-25 19,-11 39,-24 39,-47 0,-27 -23,-39 -52,-39 -18,0 -35,4 -50,14z"/>
+   <path id="1" class="fil0" d="M144 1215l0 137 64 0c26,0 58,-7 58,-38 0,-21 -14,-31 -28,-34 13,-5 22,-14 22,-30 0,-24 -19,-35 -51,-35l-65 0zm90 95c0,15 -12,18 -27,18l-32 0 0 -35 34 0c13,0 25,3 25,17zm-5 -55c0,10 -9,15 -21,15l-32 0 0 -31 30 0c14,0 23,5 23,16z"/>
+   <polygon id="2" class="fil0" points="369,1352 369,1241 441,1241 441,1215 337,1215 337,1352 "/>
+   <path id="3" class="fil0" d="M469 1215l0 137 32 0 0 -45 24 0c36,0 64,-11 64,-46 0,-36 -28,-46 -64,-46l-56 0zm88 46c0,16 -14,20 -30,20l-26 0 0 -40 26 0c16,0 30,4 30,20z"/>
+   <path id="4" class="fil0" d="M691 1321l54 -106 -35 0 -33 70 -39 -70 -35 0 59 97 -3 5c-5,10 -13,12 -23,12 -6,0 -12,-1 -17,-2l0 24c8,2 16,4 23,4 19,0 35,-8 49,-34z"/>
+   <polygon id="5" class="fil0" points="801,1352 801,1241 867,1241 867,1352 899,1352 899,1215 769,1215 769,1352 "/>
+   <polygon id="6" class="fil0" points="972,1352 972,1241 1038,1241 1038,1352 1070,1352 1070,1215 940,1215 940,1352 "/>
+  </g>
+ </g>
+</svg>

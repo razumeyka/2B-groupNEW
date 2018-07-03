@@ -1,0 +1,672 @@
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../fonts/HelveticaNeueCyr-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/HelveticaNeueCyr-Light.woff') format('woff'), url('../fonts/HelveticaNeueCyr-Light.ttf')  format('truetype'), url('../fonts/HelveticaNeueCyr-Light.svg#HelveticaNeueCyr-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../fonts/HelveticaNeueCyr-Roman.eot?#iefix') format('embedded-opentype'),  url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff'), url('../fonts/HelveticaNeueCyr-Roman.ttf')  format('truetype'), url('../fonts/HelveticaNeueCyr-Roman.svg#HelveticaNeueCyr-Roman') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../fonts/HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/HelveticaNeueCyr-Medium.woff') format('woff'), url('../fonts/HelveticaNeueCyr-Medium.ttf')  format('truetype'), url('../fonts/HelveticaNeueCyr-Medium.svg#HelveticaNeueCyr-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../fonts/HelveticaNeueCyr-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff'), url('../fonts/HelveticaNeueCyr-Bold.ttf')  format('truetype'), url('../fonts/HelveticaNeueCyr-Bold.svg#HelveticaNeueCyr-Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body{
+	margin:0;
+	padding:0;  
+	font-family:  "Helvetica";  
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.5;
+	color:rgb(0, 0, 0);
+	min-width: 360px;
+    letter-spacing: 0.015em;
+}
+
+.wrapper{
+	max-width:1200px;
+	margin:0 auto;
+	padding:0 40px;
+}
+
+header, footer, nav, section, main, article, aside{
+    display: block;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+button, input {
+    font-family:  "Helvetica"; 
+}
+
+/* header */
+header {
+    background: -webkit-linear-gradient(left, #2c682c 0%,#2c682c 50%,#ffffff 50%,#ffffff 100%);
+}
+    
+header .wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+header .bordered {
+    width: 48px;
+    height: 30px;
+    border-right: 9px solid rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+
+header .bordered.bottom {
+    height: 230px;
+    margin: 37px 0 0;
+}
+
+header .menu_block {
+    background: #2c682c;
+    width: 286px;
+}
+
+header .logo {
+    display: inline-block;
+    background: url(../img/logo_big.svg) no-repeat;
+    width: 110px;
+    height: 166px;
+}
+
+header h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin: 33px 0 20px;
+}
+
+header .menu {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+header .menu li {
+    list-style: none;
+    position: relative;
+}
+
+header .menu a {
+    display: inline-block;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+header .submenu {
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 100px;
+}
+
+header .menu li:hover .submenu {
+    display: block;
+}
+
+header .submenu li a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+header .slider_wr {
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
+    max-width: 935px;
+}
+
+header .slide {
+}
+
+header .animation_wr  {
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+    height: 400px;
+}
+
+header .animation  {
+    position: absolute;
+    margin: auto;
+    width: 90%;
+    height: 85%;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    opacity: 0;
+    -webkit-transition: opacity .5s ease-out 0s;
+    transition: opacity .5s ease-out 0s;
+}
+
+header .animation.active {
+    opacity: 1;
+}
+
+header .slide .animation  svg {
+    width: auto;
+    height: 100%;
+    max-width: 100%;
+}
+
+header .slide .text_wr {
+    position: relative;
+    width: 500%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+header .text {
+    width: 20%;
+    float: left;
+    overflow: hidden;
+}
+
+header .caption {
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1.7px;
+}
+
+header p {
+    display: block;
+    font-size: 24px;
+    color: rgb(75, 75, 75);
+    text-align: center;
+    max-width: 357px;
+    margin: 10px auto;
+    letter-spacing: 1px;
+}
+
+header .slider_wr .controls {
+    position: absolute;
+    bottom: 57px;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+header .point {
+    display: inline-block;
+    background-color: rgb(233, 231, 223);
+    width: 20px;
+    height: 20px;
+    margin: 0 22px;
+    -webkit-transition: all 0.5s linear 0s;
+    -moz-transition: all 0.5s linear 0s;
+    -o-transition: all 0.5s linear 0s;
+    transition: all 0.5s linear 0s;
+}
+
+header .point.active {
+    background-color: #68a468;
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+}
+
+/* services_screen */
+
+.services_screen {
+    
+}
+
+.services_screen .wrapper {
+}
+
+.services_screen .service_icons {
+    box-sizing: border-box;
+    border-top: 1px solid rgb(233, 231, 223);
+    border-bottom: 1px solid rgb(233, 231, 223); 
+    background-color: rgba(233, 231, 223, 0);
+    padding: 38px 0 33px;
+    margin: 0 -30px 70px;
+    position: relative;
+}
+
+.services_screen .service_icons:after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    border-right: 1px solid rgb(233, 231, 223);
+    border-bottom: 1px solid rgb(233, 231, 223);
+    transform: rotate(45deg);
+    bottom: -22px;
+    left: 50%;
+}
+
+.services_screen .service_icons .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services_screen .service_icons .services {
+    width: 20%;
+    box-sizing: border-box;
+}
+
+.services_screen .service_icons .services .icon {
+    background: url('../img/sprites.svg') -8px -7px;
+	width: 118px;
+	height: 88px;
+    margin: 0 auto;
+}
+
+.services_screen .service_icons .сonstructions.services .icon {
+    background-position: -171px -7px;
+}
+
+.services_screen .service_icons .engineering.services .icon {
+    background-position: -334px -7px;
+}
+
+.services_screen .service_icons .linear.services .icon {
+    background-position: -496px -7px;
+}
+
+.services_screen .service_icons .related.services .icon {
+    background-position: -657px -7px;
+}
+
+.services_screen .service_icons .services .text {
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.services_screen .slider_wr {
+}
+
+.services_screen .slider2_wr .slide {
+    position: relative;
+}
+
+.services_screen .slider2_wr .slide .description {
+    max-width: 455px;
+    padding: 17px 0;
+}
+
+.services_screen .slider2_wr h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.services_screen .slider2_wr p {
+    font-size: 16px;
+    color: rgb(88, 88, 88);
+    margin: 24px 0;
+}
+
+.services_screen .slider2_wr .links {
+    max-width: 300px;
+}
+
+.services_screen .slider2_wr a {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(0, 77, 0);
+    text-decoration: none;
+    margin: 10px 0;
+    position: relative;
+    border-bottom: 1px dashed rgb(0, 77, 0);
+}
+
+.services_screen .slider2_wr .button, .button {
+    display:inline-block;
+    background-color: #2c682c;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    width: 276px;
+    height: 61px;
+    line-height: 61px;
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.services_screen .slider2_wr .slide .demo {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.services_screen .slider2_wr img {
+}
+
+/* portfolio_screen */
+
+.portfolio_screen.flex, .portfolio_screen .flex {
+    display: flex;
+    flex-wrap: nowrap;
+    text-decoration: none;
+}
+
+.portfolio_screen .first_block {
+    height: 740px;
+    width: 40%;
+}
+
+.portfolio_screen .second_block {
+    flex-direction: column;
+    margin: 0 20px;
+    width: 24%;
+}
+
+.portfolio_screen .second_block .photo {
+    max-height: 503px;
+}
+
+.portfolio_screen .third_block {
+    height: 740px;
+    width: 40%;
+}
+
+.portfolio_screen .top_block {
+    height: 310px;
+    margin-bottom: 20px;
+}
+
+.portfolio_screen .third_block .top_block {
+    height: 410px;
+}
+
+.portfolio_screen .bottom_block {
+    height: 410px;
+}
+
+.portfolio_screen .third_block .bottom_block {
+    height: 310px;
+}
+
+.portfolio_screen .photo {
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    flex: 1;
+}
+
+.portfolio_screen h3 {
+    display: block;
+    background: #e9e7df;
+    font-size: 19px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    padding: 55px 45px;
+    margin-left: 2px;
+    flex: 1;
+}
+
+.portfolio_screen .bottom_block h3 {
+    margin: 0 2px 0 0;
+}
+
+.portfolio_screen .second_block h3 {
+    background: #2c682c;
+    color: #ffffff;
+    margin: 0 0 2px;
+}
+
+/* clients_screen */
+
+.clients_screen {
+    padding: 78px 0;
+}
+
+.clients_screen .caption {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+
+.clients_screen .clients {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.clients_screen .clients .client_wr {
+    width: 16.66%;
+    padding: 40px 10px;
+    box-sizing: border-box;
+    margin: auto 0;
+}
+
+.clients_screen .clients .client {
+    background: url(../img/partners.jpg) no-repeat -1px -18px;
+    width: 159px;
+    height: 49px;
+}
+
+.clients_screen .clients .client.two {
+    background-position: -1px -95px;
+    height: 63px;
+}
+
+.clients_screen .clients .client.three {
+    background-position: -1px -187px;
+}
+
+.clients_screen .clients .client.four {
+    background-position: -1px -272px;
+}
+
+.clients_screen .clients .client.five {
+    background-position: -1px -356px;
+}
+
+.clients_screen .clients .client.six {
+    background-position: -1px -442px;
+}
+
+.clients_screen .clients .client.seven {
+    background-position: -1px -506px;
+    height: 90px;
+}
+
+.clients_screen .clients .client.eight {
+    background-position: -1px -612px;
+}
+
+.clients_screen .clients .client.nine {
+    background-position: -1px -695px;
+}
+
+.clients_screen .clients .client.ten {
+    background-position: -1px -777px;
+    height: 60px;
+}
+
+.clients_screen .clients .client.eleven {
+    background-position: -1px -866px;
+}
+
+.clients_screen .clients .client.twelve {
+    background-position: -1px -932px;
+    height: 57px;
+}
+
+/* contacts_screen */
+
+.contacts_screen {
+    background: -webkit-linear-gradient(left, #2c682c 0%,#2c682c 50%,#ffffff 50%,#ffffff 100%);
+    display: flex;
+}
+
+.contacts_screen .contacts_screen_wr {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+}
+
+.contacts_screen .contacts_wr {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.contacts_screen .contacts {
+    width: 285px;
+    padding: 45px;
+}
+
+.contacts_screen .contacts .logo {
+    display: inline-block;
+    background: url(../img/logo_small.svg) no-repeat;
+    width: 66px;
+    height: 83px;
+}
+
+.contacts_screen .contacts .contact {
+    display: block;
+    font-size: 17px;                   
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 18px 0;
+}
+
+.contacts_screen .contacts .social_icons {
+    display: flex;
+    flex-wrap: nowrap;
+    margin:45px -4px 0;
+}
+
+.contacts_screen .contacts .social_icons .icon {
+    background: url(../img/sprites.svg) -994px -127px;
+	width: 50px;
+	height: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 0 4px;
+}
+
+.contacts_screen .contacts .social_icons .icon.vk {
+    background-position: -1052px -127px;
+}
+
+.contacts_screen .contacts .social_icons .icon.insta {
+    background-position: -1113px -127px;
+}
+
+.contacts_screen .form {
+    box-sizing: border-box;
+    background:  #e9e7df;
+    max-width: 410px;
+    padding: 50px 40px;
+}
+
+.contacts_screen .form .caption {
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contacts_screen .form .after_caption  {
+    font-size: 16px;
+    text-align: center;
+    margin: 14px 0;
+}
+
+.contacts_screen .form .input_wr {
+    display: block;
+    margin: 15px 0;
+}
+
+.contacts_screen .form .input_wr .wpcf7-form-control {
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid rgb(198, 198, 198);
+    height: 54px;
+    width: 100%;
+    font-size: 16px;
+    color: rgb(89, 89, 89);
+    font-weight: 300;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.contacts_screen .form input:not([type=submit]):focus {
+	border: 1px solid #000082;
+}
+
+.contacts_screen .form .button_wr {
+    margin-top: 21px;
+    display: block;
+}
+
+.contacts_screen .form .button {
+    width: 100%;
+    margin: 0;
+}
+
+.contacts_screen .map {
+    font-size: 0;
+}
+
+/* footer */
+
+footer {
+    background: #131f13;
+    padding: 16px 0;
+    color: rgb(152, 149, 135);
+    letter-spacing: 1px;
+}
+
+footer .wrapper {
+    display: flex;
+}
+
+footer a {
+    color: rgb(152, 149, 135);
+    padding-left: 30px;
+}
+
+
+
+
+
