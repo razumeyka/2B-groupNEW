@@ -13,12 +13,12 @@ $(document).ready(function(){
     var slide=20;
     var slides=5;
         function setslide(counter){
-            $('.slider_wr .point').removeClass('active');
-            $('.slider_wr .point').eq(counter).addClass('active');
             if(counter>=slides) counter=0;
             slide=counter;
             $('.text_long').css('margin-left','-'+counter+'00%');
             $('.animation_wr .animation').removeClass('active');
+            $('.slider_wr .point').removeClass('active');
+            $('.slider_wr .point').eq(counter).addClass('active');
 
             var $el=$('.animation_wr .animation').eq(counter);
             $el.addClass('active');
@@ -52,11 +52,9 @@ $(document).ready(function(){
     
 // showing house lines
     
-    var w = 0; 
-    $('.links li').click(function(e) { 
+    $('.links li').hover(function(e) { 
         e.preventDefault();
-        w = $(this).index();
         $('.lines').removeClass('active');
-        $('.lines_wr .lines').eq('w').addClass('active');
+        $('.lines_wr .lines').eq($(this).index()).addClass('active');
     }); 
 });
