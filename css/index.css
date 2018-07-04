@@ -115,7 +115,7 @@ header .menu a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     text-transform: uppercase;
-    padding: 10px 0;
+    padding: 7px 0;
 }
 
 header .submenu {
@@ -237,15 +237,13 @@ header .point.active {
     width: 30px;
     height: 30px;
     transform: rotate(45deg);
+    margin-bottom: -5px;
 }
 
 /* services_screen */
 
 .services_screen {
-    
-}
-
-.services_screen .wrapper {
+    overflow: hidden;
 }
 
 .services_screen .service_icons {
@@ -255,20 +253,6 @@ header .point.active {
     background-color: rgba(233, 231, 223, 0);
     padding: 38px 0 33px;
     margin: 0 -30px 70px;
-    position: relative;
-}
-
-.services_screen .service_icons:after {
-    content: "";
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background: #ffffff;
-    border-right: 1px solid rgb(233, 231, 223);
-    border-bottom: 1px solid rgb(233, 231, 223);
-    transform: rotate(45deg);
-    bottom: -22px;
-    left: 50%;
 }
 
 .services_screen .service_icons .wrapper {
@@ -279,6 +263,7 @@ header .point.active {
 .services_screen .service_icons .services {
     width: 20%;
     box-sizing: border-box;
+    position: relative;
 }
 
 .services_screen .service_icons .services .icon {
@@ -311,32 +296,76 @@ header .point.active {
     margin-top: 14px;
 }
 
-.services_screen .slider_wr {
+.services_screen .service_icons .services:after {
+    display: none;
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    border-right: 1px solid rgb(233, 231, 223);
+    border-bottom: 1px solid rgb(233, 231, 223);
+    transform: rotate(45deg);
+    bottom: -55px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.services_screen .service_icons .services.active:after {
+    display: block;
+}
+
+.services_screen .viewport {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.services_screen .slider2_wr {
+    position: relative;
+    width: 500%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .services_screen .slider2_wr .slide {
+    width: 20%;
+    display: inline;
+    float: left;
+    overflow: hidden;
     position: relative;
 }
 
 .services_screen .slider2_wr .slide .description {
     max-width: 455px;
-    padding: 17px 0;
+    padding: 17px 0 110px;
 }
 
 .services_screen .slider2_wr h2 {
     font-size: 32px;
     font-weight: 700;
     line-height: 1.3;
+    letter-spacing: 2px;
 }
 
 .services_screen .slider2_wr p {
     font-size: 16px;
     color: rgb(88, 88, 88);
-    margin: 24px 0;
+    margin: 24px 0 38px;
 }
 
-.services_screen .slider2_wr .links {
-    max-width: 300px;
+.services_screen .slider2_wr ul {
+    padding: 0;
+    margin: 0;
+}
+
+.services_screen .slider2_wr ul li {
+    display: block;
+    margin: 23px 0;
+    list-style: none;
 }
 
 .services_screen .slider2_wr a {
@@ -345,9 +374,9 @@ header .point.active {
     font-weight: 400;
     color: rgb(0, 77, 0);
     text-decoration: none;
-    margin: 10px 0;
     position: relative;
     border-bottom: 1px dashed rgb(0, 77, 0);
+    letter-spacing: 0.9px;
 }
 
 .services_screen .slider2_wr .button, .button {
@@ -369,13 +398,18 @@ header .point.active {
     margin-top: 30px;
 }
 
-.services_screen .slider2_wr .slide .demo {
+.services_screen .slider2_wr .slide .demo img {
     position: absolute;
     top: 0;
     right: 0;
 }
 
-.services_screen .slider2_wr img {
+.services_screen .slider2_wr .demo .lines {
+    display: none;
+}
+
+.services_screen .slider2_wr .demo .lines.active {
+    display: block;
 }
 
 /* portfolio_screen */
@@ -552,7 +586,7 @@ header .point.active {
 
 .contacts_screen .contacts {
     width: 285px;
-    padding: 45px;
+    padding: 45px 30px 45px 56px;
 }
 
 .contacts_screen .contacts .logo {
@@ -595,7 +629,7 @@ header .point.active {
 .contacts_screen .form {
     box-sizing: border-box;
     background:  #e9e7df;
-    max-width: 410px;
+    max-width: 455px;
     padding: 50px 40px;
 }
 
@@ -646,6 +680,10 @@ header .point.active {
 
 .contacts_screen .map {
     font-size: 0;
+}
+
+.contacts_screen .map iframe {
+    height: 100%;
 }
 
 /* footer */

@@ -1,4 +1,7 @@
 $(document).ready(function(){
+    
+// main-screen slider
+    
     var slide=20;
     var slides=5;
         function setslide(counter){
@@ -30,16 +33,22 @@ $(document).ready(function(){
 
     })
     
-    var slideNow = 1;   
-    var slideCount = console.log($('#slidewrapper .slide').length);
-    var navBtnId = 0;
-    
-    $('.services').click(function() {   
-            navBtnId = $(this).index();
-                $('.slider2_wr').css(
-                    'margin-left','-'+navBtnId+'00%'); 
-            $('html, body').stop().animate({
-                scrollTop: $('.slide .about').offset().top
-            }, 500);
+// services slider
+     
+    $('.services').click(function() { 
+            $('.services').removeClass('active');
+            $('.slider2_wr').css(
+                'margin-left','-'+$(this).index()+'00%'); 
+            $(this).addClass('active');
     });
+    
+// showing house lines
+    
+    var w = 0; 
+    $('.links li').click(function(e) { 
+        e.preventDefault();
+        w = $(this).index();
+        $('.lines').removeClass('active');
+        $('.lines_wr .lines').eq('w').addClass('active');
+    }); 
 });
