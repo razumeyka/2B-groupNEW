@@ -120,14 +120,14 @@ header .menu a {
 
 header .submenu {
     display: none;
-    position: absolute;
+    position: static;
     margin: 0;
     padding: 0;
     top: 0;
-    left: 100px;
+    left: 0px;
 }
 
-header .menu li:hover .submenu {
+header .submenu.active {
     display: block;
 }
 

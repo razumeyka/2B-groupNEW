@@ -2,8 +2,10 @@ $(document).ready(function(){
 
 // submenu
     
-    $('.menu li').click(function(){
-        $(this).find('.submenu').slideToggle(500);
+    $('.menu li').click(function(e){
+        e.preventDefault();
+        $('.submenu').slideUp('500');
+        $(this).find('.submenu').slideToggle("500");
     }); 
     
 // main-screen slider
