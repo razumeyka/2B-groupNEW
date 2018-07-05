@@ -8,8 +8,7 @@ $(document).ready(function(){
         $(this).find('.submenu').slideToggle("500");
     }); 
     
-// main-screen slider
-    
+// slider  
     var slide=20;
     var slides=5;
         function setslide(counter){
@@ -28,7 +27,6 @@ $(document).ready(function(){
         }
         function setslide_next(){setslide(slide+1);}
 
-
     $(document).ready(function(){
         $('.slider_wr .point').click(function(){
             clearInterval(interval);
@@ -38,7 +36,6 @@ $(document).ready(function(){
         });
     setslide(0);
     var interval=setInterval(setslide_next,6000);
-
     })
     
 // services slider
