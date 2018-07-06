@@ -416,54 +416,69 @@ header .submenu li a {
 
 /* portfolio_screen */
 
-.portfolio_screen.flex, .portfolio_screen .flex {
+.portfolio_screen .flex {
     display: flex;
     flex-wrap: nowrap;
     text-decoration: none;
 }
 
-.portfolio_screen .first_block {
+.portfolio_screen_wr {
     height: 740px;
+    margin: 0 -10px;
+}
+
+.portfolio_screen a {
+    padding: 10px;
+}
+
+.portfolio_screen .first_block {
+    height: 100%;
     width: 40%;
 }
 
 .portfolio_screen .second_block {
+    height: 100%;
+    flex-grow: 1;
+}
+
+.portfolio_screen .second_block a {
     flex-direction: column;
-    margin: 0 20px;
-    width: 24%;
+}
+
+.portfolio_screen .second_block h3 {
+    height: 30%;
 }
 
 .portfolio_screen .second_block .photo {
-    max-height: 503px;
+    height: 70%;
+    width: 100%;
 }
 
 .portfolio_screen .third_block {
-    height: 740px;
+    height: 100%;
     width: 40%;
 }
 
 .portfolio_screen .top_block {
-    height: 310px;
-    margin-bottom: 20px;
+    height: 42%;
 }
 
 .portfolio_screen .third_block .top_block {
-    height: 410px;
+    height: 55%;
 }
 
 .portfolio_screen .bottom_block {
-    height: 410px;
+    height: 55%;
 }
 
 .portfolio_screen .third_block .bottom_block {
-    height: 310px;
+    height: 42%;
 }
 
 .portfolio_screen .photo {
     background-color: aqua;
     height: 100%;
-    width: 100%;
-    flex: 1;
+    width: 45%;
 }
 
 .portfolio_screen h3 {
@@ -473,18 +488,19 @@ header .submenu li a {
     font-weight: 400;
     color: rgb(0, 0, 0);
     padding: 55px 45px;
-    margin-left: 2px;
-    flex: 1;
+    border-left: 2px solid #ffffff;
+    width: 45%;
 }
 
 .portfolio_screen .bottom_block h3 {
-    margin: 0 2px 0 0;
+    border-right: 2px solid #ffffff;
 }
 
 .portfolio_screen .second_block h3 {
     background: #2c682c;
     color: #ffffff;
-    margin: 0 0 2px;
+    border-bottom: 2px solid #ffffff;
+    width: auto;
 }
 
 /* clients_screen */
