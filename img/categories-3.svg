@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="118px" height="88px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1180 880"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#2C682C;stroke-width:20.8348}
+    .fil0 {fill:none}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1910961877984">
+   <path class="fil0 str0" d="M165 850l119 0 0 -158 -119 0 0 158zm119 -232l0 -173c0,-16 13,-30 29,-30l36 0 0 -119 -95 0c-49,1 -89,40 -89,89l0 233 119 0zm130 -203l51 0 0 -119 -51 0 0 119zm287 0l65 0 0 -121 -65 1 0 120zm130 0l36 0c16,0 29,14 29,30l0 173 119 0 0 -235c0,-25 -9,-46 -26,-63 -18,-18 -39,-26 -63,-26l-95 0 0 121zm65 277l0 158 119 0 0 -158 -119 0z"/>
+   <path class="fil0 str0" d="M140 618l154 0c16,0 29,13 29,29l0 15c0,17 -13,30 -29,30l-154 0c-16,0 -29,-13 -29,-30l0 -15c0,-16 13,-29 29,-29z"/>
+   <path class="fil0 str0" d="M879 618l153 0c17,0 30,13 30,29l0 15c0,17 -13,30 -30,30l-153 0c-16,0 -29,-13 -29,-30l0 -15c0,-16 13,-29 29,-29z"/>
+   <path class="fil0 str0" d="M414 288l0 135c0,15 -11,27 -26,27l-13 0c-14,0 -26,-12 -26,-27l0 -135c0,-14 12,-26 26,-26l13 0c15,0 26,12 26,26z"/>
+   <path class="fil0 str0" d="M831 288l0 135c0,15 -12,27 -26,27l-13 0c-15,0 -26,-12 -26,-27l0 -135c0,-14 11,-26 26,-26l13 0c14,0 26,12 26,26z"/>
+   <path class="fil0 str0" d="M494 262l177 0c16,0 30,13 30,30l0 128c0,16 -14,30 -30,30l-177 0c-16,0 -29,-14 -29,-30l0 -128c0,-17 13,-30 29,-30z"/>
+   <path class="fil0 str0" d="M521 267l0 -39c0,-11 9,-20 20,-20l89 0c10,0 19,9 19,20l0 39"/>
+   <path class="fil0 str0" d="M484 30l202 0c17,0 30,13 30,30l0 14c0,17 -13,30 -30,30l-202 0c-17,0 -30,-13 -30,-30l0 -14c0,-17 13,-30 30,-30z"/>
+   <line class="fil0 str0" x1="557" y1="104" x2="557" y2= "208" />
+   <line class="fil0 str0" x1="613" y1="104" x2="613" y2= "208" />
+   <line class="fil0 str0" x1="20" y1="850" x2="1160" y2= "850" />
+   <line class="fil0 str0" x1="512" y1="402" x2="597" y2= "402" />
+   <line class="fil0 str0" x1="628" y1="402" x2="654" y2= "402" />
+  </g>
+ </g>
+</svg>

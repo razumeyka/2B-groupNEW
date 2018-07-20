@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="118px" height="88px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1180 880"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#2C682C;stroke-width:20.8348}
+    .fil0 {fill:none}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1910758482704">
+   <g>
+    <polyline class="fil0 str0" points="739,782 739,850 189,850 189,98 266,98 "/>
+    <polygon class="fil0 str0" points="266,30 696,30 816,151 816,782 266,782 "/>
+    <polyline class="fil0 str0" points="816,151 696,151 696,30 "/>
+    <g>
+     <path class="fil0 str0" d="M457 203l-55 0c4,-22 64,-40 64,-76 0,-23 -20,-38 -33,-38 -14,0 -22,0 -22,0l-70 0 0 152 146 0 0 -45c0,0 -6,-31 -30,-31l-14 0"/>
+     <path class="fil0 str0" d="M341 225c9,-48 81,-67 73,-98l-40 0"/>
+    </g>
+    <line class="fil0 str0" x1="341" y1="430" x2="742" y2= "430" />
+    <line class="fil0 str0" x1="341" y1="351" x2="742" y2= "351" />
+    <line class="fil0 str0" x1="341" y1="587" x2="742" y2= "587" />
+    <line class="fil0 str0" x1="341" y1="508" x2="742" y2= "508" />
+    <line class="fil0 str0" x1="626" y1="702" x2="742" y2= "702" />
+    <line class="fil0 str0" x1="646" y1="731" x2="678" y2= "675" />
+    <line class="fil0 str0" x1="685" y1="731" x2="730" y2= "653" />
+   </g>
+   <g>
+    <path class="fil0 str0" d="M893 136l35 0c9,0 16,10 16,21l0 496 -66 0 0 -496c0,-11 7,-21 15,-21z"/>
+    <polyline class="fil0 str0" points="878,653 911,744 944,653 "/>
+    <line class="fil0 str0" x1="878" y1="311" x2="944" y2= "311" />
+    <path class="fil0 str0" d="M944 170c0,0 47,-22 47,47 0,69 0,165 0,165"/>
+   </g>
+  </g>
+ </g>
+</svg>
