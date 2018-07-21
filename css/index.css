@@ -1262,6 +1262,24 @@ footer .bottom_line a {
 	footer .form .after_caption {
 		font-size: 15px;
 	}
+    
+    .projects_screen .flex {
+        flex-wrap: wrap;
+    }
+    
+    .projects_screen .project .photo {
+        width: 100%;
+    }
+    
+    .projects_screen .project .text {
+        width: 100%;
+        max-width: 1200px;
+        padding: 47px 15px;
+    }
+    
+    .projects_screen .project .project2 .text {
+        padding: 47px 15px;
+    }
 }
 
 @media screen and (max-width: 1023px) {
