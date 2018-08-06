@@ -7,9 +7,6 @@ $( '.mobile_menu' ).click( function() {
         $('header .menu').slideToggle(300);
         
     });
- 
-
-
 
 // submenu
     
@@ -69,4 +66,13 @@ $( '.mobile_menu' ).click( function() {
         $('.lines').removeClass('active');
         $('.lines_wr .lines').eq($(this).index()).addClass('active');
     }); 
+    
+// bxslider
+    $('.bxslider').bxSlider({
+      auto: true,
+      autoControls: true,
+      stopAutoOnClick: true,
+      pager: true,
+      slideWidth: 600
+    });
 });

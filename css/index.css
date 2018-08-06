@@ -124,7 +124,7 @@ header .menu a {
     padding: 7px 0;
 }
 
-header .submenu {
+header .sub-menu {
     display: none;
     position: static;
     margin: 0;
@@ -133,11 +133,11 @@ header .submenu {
     left: 0px;
 }
 
-header .submenu.active {
+header .sub-menu.active {
     display: block;
 }
 
-header .submenu li a {
+header .sub-menu li a {
     text-decoration: none;
     padding: 10px;
 }
@@ -650,11 +650,6 @@ header .submenu li a {
 } 
 
 
-
-
-
-
-
 /* clients_screen */
 
 .clients_screen {
@@ -816,12 +811,16 @@ footer .form .after_caption  {
     margin: 10px 0 15px;
 }
 
-footer .form .input_wr {
+footer .form .wpcf7-form-control-wrap {
     display: block;
     margin: 15px 0;
 }
 
-footer .form .input_wr .wpcf7-form-control {
+footer .form .wpcf7-form-control-wrap.button_wr {
+    margin: 21px 0 0;
+}
+
+footer .form .wpcf7-form-control-wrap .wpcf7-form-control {
     display: block;
     box-sizing: border-box;
     border: 1px solid rgb(198, 198, 198);
@@ -835,11 +834,6 @@ footer .form .input_wr .wpcf7-form-control {
 
 footer .form input:not([type=submit]):focus {
 	border: 1px solid #2c682c;
-}
-
-footer .form .button_wr {
-    margin-top: 21px;
-    display: block;
 }
 
 footer .form .button {
@@ -913,6 +907,11 @@ footer .bottom_line a {
     position: relative;
 }
 
+.projects_header .navbar .menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .projects_header .navbar a {
     font-size: 12px;
     font-weight: 400;
@@ -959,20 +958,49 @@ footer .bottom_line a {
     margin: 55px 0;
 }
 
-.projects_screen .project {
+.projects_screen .projects {
     margin-bottom: 90px;
 }
 
-.projects_screen .project:last-child {
+.projects_screen .projects:last-child {
     margin-bottom: 120px;
 }
 
-.projects_screen .project .project_category {
+.projects_screen .projects .project_category {
     background: #e9e7df;
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 .projects_screen .project_category .icon {
+    background: url(../img/sprites.svg) no-repeat;
+    background-position: -8px -216px;
+	width: 97px;
+	height: 74px;
+    float: left;
+}
+
+.projects_screen .business .project_category .icon {
+    background-position: -146px -216px;
+	width: 99px;
+	height: 73px;
+}
+
+.projects_screen .shops .project_category .icon {
+    background-position: -272px -216px;
+	width: 98px;
+	height: 74px;
+}
+
+.projects_screen .public .project_category .icon {
+    background-position: -398px -216px;
+	width: 98px;
+	height: 74px;
+}
+
+.projects_screen .cottages .project_category .icon {
+    background-position: -524px -216px;
+	width: 98px;
+	height: 74px;
 }
 
 .projects_screen .project_category .caption {
@@ -980,7 +1008,7 @@ footer .bottom_line a {
     text-transform: uppercase;
     max-width: 350px;
     line-height: 1.7;
-    padding-left: 111px;
+    padding: 13px 0 8px 112px;
 }
 
 .projects_screen .flex {
@@ -989,9 +1017,11 @@ footer .bottom_line a {
     margin: 20px 0 60px;
 }
 
+.projects_screen .project:nth-child(2n+1) {
+    flex-direction: row-reverse;
+}
+
 .projects_screen .project .photo {
-    background: url(../img/project-1.jpg) center;
-    background-size: cover;
     width: 50%;
     height: 505px;
 }
@@ -1029,6 +1059,27 @@ footer .bottom_line a {
     padding: 10px 42px 10px 40px;
     margin-top: 25px;
     float: left;
+    position: relative;
+}
+
+.projects_screen .project .text .download::before {
+    content: "";
+    background: url(../img/sprites.svg) no-repeat -9px -335px;
+	width: 32px;
+	height: 38px;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+
+.projects_screen .project .text .video::before {
+    content: "";
+    background: url(../img/sprites.svg) no-repeat -63px -338px;
+	width: 38px;
+	height: 31px;
+    position: absolute;
+    left: -7px;
+    top: 7px;
 }
 
 .projects_screen .project .project2 .text {
@@ -1049,9 +1100,7 @@ footer .bottom_line a {
 	.portfolio_screen h3{
 		font-size:17px;
 	}
-	
 }
-
 
 @media screen and (max-width: 1366px) {}
 
