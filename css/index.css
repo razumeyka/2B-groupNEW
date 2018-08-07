@@ -1052,13 +1052,13 @@ footer .bottom_line a {
     text-decoration: underline;
     text-transform: uppercase;
     padding: 10px 0 10px 43px;
-    margin: 25px 32px 0 0;
+    margin: 25px 33px 0 0;
     float: left;
     position: relative;
 }
 
 .projects_screen .project .text .video {
-    padding: 10px 0 10px 50px;
+    padding: 10px 0 10px 49px;
 }
 
 .projects_screen .project .text .download::before {
@@ -1073,7 +1073,7 @@ footer .bottom_line a {
 
 .projects_screen .project .text .video::before {
     content: "";
-    background: url(../img/sprites.svg) no-repeat -61px -336px;
+    background: url(../img/sprites.svg) no-repeat -62px -336px;
 	width: 38px;
 	height: 31px;
     position: absolute;
