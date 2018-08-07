@@ -1056,7 +1056,7 @@ footer .bottom_line a {
     font-size: 13px;
     font-weight: 400;
     color: rgb(44, 104, 44);
-    text-decoration: underline;
+    text-decoration: none;
     text-transform: uppercase;
     padding: 10px 0 10px 43px;
     margin: 25px 33px 0 0;
