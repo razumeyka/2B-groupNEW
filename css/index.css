@@ -974,7 +974,13 @@ footer .bottom_line a {
 
 .projects_screen .projects .project_category {
     background: #e9e7df;
-    padding: 38px 0;
+    padding: 35px 0;
+}
+
+
+.projects_screen .projects .project_category .wrapper {
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .projects_screen .project_category .icon {
@@ -982,7 +988,7 @@ footer .bottom_line a {
     background-position: -8px -216px;
 	width: 97px;
 	height: 74px;
-    float: left;
+    margin: auto 20px auto 0;
 }
 
 .projects_screen .business .project_category .icon {
@@ -1014,7 +1020,8 @@ footer .bottom_line a {
     text-transform: uppercase;
     max-width: 350px;
     line-height: 1.7;
-    padding: 13px 0 13px 112px;
+    margin: auto 0;
+    flex: 1;
 }
 
 .projects_screen .project:nth-child(2n+1) {
