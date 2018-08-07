@@ -73,6 +73,6 @@ $( '.mobile_menu' ).click( function() {
       autoControls: true,
       stopAutoOnClick: true,
       pager: true,
-      slideWidth: 600
+      slideWidth: 675
     });
 });
