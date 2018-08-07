@@ -69,10 +69,8 @@ $( '.mobile_menu' ).click( function() {
     
 // bxslider
     $('.bxslider').bxSlider({
-      auto: true,
-      autoControls: true,
-      stopAutoOnClick: true,
-      pager: true,
-      slideWidth: 675
+        auto: false,
+        autoControls: true,
+        pager: true,
     });
 });
